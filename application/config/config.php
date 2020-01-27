@@ -25,11 +25,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $config['base_url'] = 'http://localhost/codeigniter/';
 
-// config for API integration with Kickbox
-$config["kickbox_API_key"] = "live_d36532663a251fd8c3a674249c1a44048d391f70c2ad1781c546d3112694a8ea";
-//config for recaptcha 
-$config['google_key'] = '6Lez7dIUAAAAAIQdRFtJAQufxsRGz9Ln5dJf0JdA';
-$config['google_secret'] = '6Lez7dIUAAAAABTU-vEfvYBTRnJfO387EUgA48St';
+// config for API integration with Kickbox (https://kickbox.com/)
+$config["kickbox_API_key"] = "";
+//config for recaptcha (https://www.google.com/recaptcha/intro/v3.html)
+$config['google_key'] = '';
+$config['google_secret'] = '';
 
 /*
 |--------------------------------------------------------------------------
